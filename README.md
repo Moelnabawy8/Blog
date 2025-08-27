@@ -7,7 +7,7 @@ documentation with Swagger**, and **basic testing**.
 
 ------------------------------------------------------------------------
 
-## ✅ **Features**
+##  **Features**
 
 -   **User Authentication** using Laravel Sanctum.
 -   **CRUD Operations** for:
@@ -19,7 +19,7 @@ documentation with Swagger**, and **basic testing**.
 
 ------------------------------------------------------------------------
 
-## ✅ **Requirements**
+##  **Requirements**
 
 -   **PHP** \>= 8.1
 -   **Composer** \>= 2.x
@@ -29,7 +29,7 @@ documentation with Swagger**, and **basic testing**.
 
 ------------------------------------------------------------------------
 
-## ✅ **Installation Steps**
+##  **Installation Steps**
 
 1.  **Clone the repository**
 
@@ -88,7 +88,7 @@ documentation with Swagger**, and **basic testing**.
 
 ------------------------------------------------------------------------
 
-## ✅ **Authentication**
+##  **Authentication**
 
 -   Register a new user:
 
@@ -102,7 +102,7 @@ documentation with Swagger**, and **basic testing**.
 
 ------------------------------------------------------------------------
 
-## ✅ **API Endpoints**
+##  **API Endpoints**
 
   Method   Endpoint                     Description
   -------- ---------------------------- -------------------------
@@ -118,7 +118,7 @@ documentation with Swagger**, and **basic testing**.
 
 ------------------------------------------------------------------------
 
-## ✅ **Swagger Documentation**
+##  **Swagger Documentation**
 
 Generate and access API docs:
 
@@ -132,7 +132,7 @@ Access Swagger UI:
 
 ------------------------------------------------------------------------
 
-## ✅ **Email Notifications**
+##  **Email Notifications**
 
 -   When a new post is created, an email is sent to the author using
     Laravel's **Mail** system.
@@ -140,23 +140,12 @@ Access Swagger UI:
 
 ------------------------------------------------------------------------
 
-## ✅ **Testing**
+##  **Testing**
 
 Run feature and unit tests:
 
 ``` bash
 php artisan test
 ```
-
-------------------------------------------------------------------------
-
-## ✅ **Evaluation Criteria**
-
-✔ Clean and structured Laravel code.\
-✔ Proper migrations and Eloquent relationships.\
-✔ Secure Authentication with Sanctum.\
-✔ Email service integration.\
-✔ API documentation with Swagger.\
-✔ README with clear setup instructions.
 
 ------------------------------------------------------------------------
