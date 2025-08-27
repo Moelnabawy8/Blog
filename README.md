@@ -23,9 +23,9 @@ documentation with Swagger**, and **basic testing**.
 
 -   **PHP** \>= 8.1
 -   **Composer** \>= 2.x
--   **MySQL** or any supported database
--   **Node.js & NPM** (optional, if using Laravel Mix)
--   **SendGrid** or SMTP credentials for email notifications
+-   **MySQL**
+-   **Node.js & NPM** 
+-   **SendGrid**  for email notifications
 
 ------------------------------------------------------------------------
 
@@ -34,8 +34,8 @@ documentation with Swagger**, and **basic testing**.
 1.  **Clone the repository**
 
     ``` bash
-    git clone https://github.com/your-username/laravel-blog-api.git
-    cd laravel-blog-api
+    git clone https://github.com/Moelnabawy8/Blog.git
+    cd Blog
     ```
 
 2.  **Install dependencies**
@@ -118,34 +118,10 @@ documentation with Swagger**, and **basic testing**.
 
 ------------------------------------------------------------------------
 
-##  **Swagger Documentation**
-
-Generate and access API docs:
-
-``` bash
-php artisan l5-swagger:generate
-```
-
-Access Swagger UI:
-
-    http://127.0.0.1:8000/api/documentation
-
-------------------------------------------------------------------------
-
 ##  **Email Notifications**
 
 -   When a new post is created, an email is sent to the author using
     Laravel's **Mail** system.
 -   Configured with SendGrid in `.env`.
-
-------------------------------------------------------------------------
-
-##  **Testing**
-
-Run feature and unit tests:
-
-``` bash
-php artisan test
-```
 
 ------------------------------------------------------------------------
