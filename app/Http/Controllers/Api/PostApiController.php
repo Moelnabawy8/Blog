@@ -8,17 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class PostApiController extends Controller
 {
-    /**
- * @OA\Info(
- *     title="Blog API",
- *     version="1.0.0"
- * )
- *
- * @OA\Server(
- *     url="http://localhost:8000",
- *     description="Local API Server"
- * )
- */
+ 
     public function index()
     {
         return Post::with('user','comments')->latest()->get();

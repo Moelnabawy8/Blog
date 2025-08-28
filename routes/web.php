@@ -1,4 +1,5 @@
 <?php
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CommentController;
@@ -12,9 +13,8 @@ Route::get('/', function () {
 
 Route::middleware(['auth'])->group(function () {
     Route::resource('posts', PostController::class);
-     Route::post('comments/{post}', [CommentController::class, 'store'])->name('comments.store');
+    Route::post('comments/{post}', [CommentController::class, 'store'])->name('comments.store');
     Route::delete('comments/{comment}', [CommentController::class, 'destroy'])->name('comments.destroy');
-    
 });
 
 Route::get('/dashboard', function () {
@@ -26,7 +26,6 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-Route::get('api/documentation', '\L5Swagger\Http\Controllers\SwaggerController@api');
 
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
